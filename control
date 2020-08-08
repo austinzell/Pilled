@@ -2,7 +2,7 @@ Package: com.austinzell.pilled
 Name: Pilled
 Version: 0.0.1
 Architecture: iphoneos-arm
-Description: Home bar (pill) go poof.
+Description: Homebar (pill) go poof.
 Maintainer: Austin Zell
 Author: Austin Zell
 Section: Tweaks
