@@ -6,7 +6,7 @@ TARGET := iphone:clang:13.7:13.0
 
 # THEOS_DEVICE_IP = 192.168.1.148
 
-export SYSROOT=$(THEOS)/sdks/iPhoneOS13.6.sdk
+export SYSROOT=$(THEOS)/sdks/iPhoneOS13.7.sdk
 
 include $(THEOS)/makefiles/common.mk
 
