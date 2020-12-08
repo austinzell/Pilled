@@ -1,9 +1,9 @@
-// creds to ajaidan0 for helping me fix some SDK issues & with hiding the bastard
+// creds to mono for helping me fix some SDK issues & with hiding the bastard
 
 %hook MTStaticColorPillView
 	-(void)setPillColor:(UIColor *)color {
 		color = [UIColor clearColor];
-		return %orig;
+		%orig;
 	}
 %end
 
